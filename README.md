@@ -43,10 +43,23 @@ python3 manage.py runserver
 http://127.0.0.1:8000/redoc/
 ```
 
+
 Отправляем POST запрос на эндпоинт ```/registration/```
+
+
+
 В теле указываем ```username, email, first_name, last_name, password```
+
+
+
 Далее отправляем POST запрос на эндпоинт ```/api-token-auth/``` - получаем Token
+
+
+
 В теле указываем ```username или email и пароль```
+
+
+
 Добро пожаловать, пользуйтесь:)
 
 
